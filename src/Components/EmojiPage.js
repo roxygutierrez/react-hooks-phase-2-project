@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import EmojiForm from "./EmojiForm";
 import EmojiCollection from "./EmojiCollection";
-import Search from "./Search";
+import Filter from "./Filter";
 import { Container } from "semantic-ui-react";
 
 const EmojiPage = () => {
