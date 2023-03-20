@@ -35,6 +35,8 @@ const EmojiPage = () => {
         <EmojiCollection emojis={emojis} />
         <br />
         <Search />
+        <br />
+        <Filter />
       </main>
     </Container>
   );
