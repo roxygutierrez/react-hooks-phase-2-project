@@ -46,8 +46,6 @@ const EmojiPage = () => {
       <main>
         <h3>Emoji Searcher</h3>
         <br />
-        <EmojiForm onHandleNewEmojiForm={handleNewEmojiForm} />
-        <br />
         <Filter onCategoryChange={setCategory} />
         <br />
         <EmojiCollection
