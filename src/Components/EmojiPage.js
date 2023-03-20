@@ -6,6 +6,7 @@ import { Container } from "semantic-ui-react";
 
 const EmojiPage = () => {
   const [emojis, setEmojis] = useState([]);
+  const [category, setCategory] = useState("");
 
   useEffect(() => {
     fetch("http://localhost:3001/emojis")
@@ -24,6 +25,12 @@ const EmojiPage = () => {
       .then((resp) => resp.json())
       .then((savedEmoji) => setEmojis([...emojis, savedEmoji]));
   };
+  const emojisToDisplay = emojis.filter((selectedEmoji) => {
+    if (category === "") {
+      return true;
+    }
+    return selectedEmoji.category === category;
+  });
 
   return (
     <Container>
@@ -32,11 +39,10 @@ const EmojiPage = () => {
         <br />
         <EmojiForm onHandleNewEmojiForm={handleNewEmojiForm} />
         <br />
-        <EmojiCollection emojis={emojis} />
+        <Filter onCategoryChange={setCategory} />
         <br />
-        <Search />
+        <EmojiCollection emojis={emojisToDisplay} />
         <br />
-        <Filter />
       </main>
     </Container>
   );

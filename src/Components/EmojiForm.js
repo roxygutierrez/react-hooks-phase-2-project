@@ -48,7 +48,8 @@ const EmojiForm = ({ onHandleNewEmojiForm }) => {
             <option value="">Select A Category...</option>
             <option value="Hearts">Hearts</option>
             <option value="People">People</option>
-            <option value="Smiley">Smiley</option>
+            <option value="Smiley Face">Smiley Face</option>
+            <option value="Food">Food</option>
             <option value="Miscellaneous">Miscellaneous</option>
           </select>
         </div>
