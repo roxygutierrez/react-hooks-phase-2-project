@@ -30,7 +30,7 @@ const EmojiPage = () => {
       <main>
         <h3>Emoji Searcher</h3>
         <br />
-        <EmojiForm emojis={emojis} onHandleNewEmojiForm={handleNewEmojiForm} />
+        <EmojiForm onHandleNewEmojiForm={handleNewEmojiForm} />
         <br />
         <EmojiCollection emojis={emojis} />
         <br />
