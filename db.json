@@ -1,16 +1,166 @@
 {
-  "toys": [
+  "emojis": [
     {
       "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
+      "name": "Grinning Face",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/grinning-face_1f600.png",
+      "category": "Smiley"
     },
     {
       "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
+      "name": "Grinning Face with Big Eyes",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/grinning-face-with-big-eyes_1f603.png",
+      "category": "Smiley"
+    },
+    {
+      "id": 3,
+      "name": "Grinning Face with Smiling Eyes",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/grinning-face-with-smiling-eyes_1f604.png",
+      "category": "Smiley"
+    },
+    {
+      "id": 4,
+      "name": "Beaming Face with Smiling Eyes",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/beaming-face-with-smiling-eyes_1f601.png",
+      "category": "Smiley"
+    },
+    {
+      "id": 5,
+      "name": "Face Holding Back Tears",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/grinning-squinting-face_1f606.png",
+      "category": "Smiley"
+    },
+    {
+      "id": 6,
+      "name": "Grinning Face with Sweat",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/grinning-face-with-sweat_1f605.png",
+      "category": "Smiley"
+    },
+    {
+      "id": 7,
+      "name": "Face with Tears of Joy",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/face-with-tears-of-joy_1f602.png",
+      "category": "Smiley"
+    },
+    {
+      "id": 8,
+      "name": "Star-Struck",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/star-struck_1f929.png",
+      "category": "Smiley"
+    },
+    {
+      "id": 9,
+      "name": " Smiling Face with Heart-Eyes",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/smiling-face-with-heart-eyes_1f60d.png",
+      "category": "Smiley"
+    },
+    {
+      "id": 10,
+      "name": "Cowboy Hat Face",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/cowboy-hat-face_1f920.png",
+      "category": "Smiley"
+    },
+    {
+      "id": 11,
+      "name": "Clown Face",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/clown-face_1f921.png",
+      "category": "Smiley"
+    },
+    {
+      "id": 12,
+      "name": "Bomb",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/bomb_1f4a3.png",
+      "category": ""
+    },
+    {
+      "id": 13,
+      "name": "Index Pointing at the Viewer",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/index-pointing-at-the-viewer_light-skin-tone_1faf5-1f3fb_1f3fb.png",
+      "category": "Hands"
+    },
+    {
+      "id": 14,
+      "name": "Red Heart",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/red-heart_2764-fe0f.png",
+      "category": "Hearts"
+    },
+    {
+      "id": 15,
+      "name": "Orange Heart",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/orange-heart_1f9e1.png",
+      "category": "Hearts"
+    },
+    {
+      "id": 16,
+      "name": "Yellow Heart",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/yellow-heart_1f49b.png",
+      "category": "Hearts"
+    },
+    {
+      "id": 17,
+      "name": "Green Heart",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/green-heart_1f49a.png",
+      "category": "Hearts"
+    },
+    {
+      "id": 18,
+      "name": "Blue Heart",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/blue-heart_1f499.png",
+      "category": "Hearts"
+    },
+    {
+      "id": 19,
+      "name": "Purple Heart",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/purple-heart_1f49c.png",
+      "category": "Hearts"
+    },
+    {
+      "id": 20,
+      "name": "Brown Heart",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/brown-heart_1f90e.png",
+      "category": "Hearts"
+    },
+    {
+      "id": 21,
+      "name": "Black Heart",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/black-heart_1f5a4.png",
+      "category": "Hearts"
+    },
+    {
+      "id": 22,
+      "name": "White Heart",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/white-heart_1f90d.png",
+      "category": "Hearts"
+    },
+    {
+      "id": 23,
+      "name": "Heart Hands",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/heart-hands_1faf6.png",
+      "category": "Hearts"
+    },
+    {
+      "name": "Man: Light Skin Tone",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/man_light-skin-tone_1f468-1f3fb_1f3fb.png",
+      "category": "People",
+      "id": 24
+    },
+    {
+      "name": "Person: Light Skin Tone, Beard",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/person-beard_light-skin-tone_1f9d4-1f3fb_1f3fb.png",
+      "category": "People",
+      "id": 25
+    },
+    {
+      "name": "Face Holding Back Tears ",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/face-holding-back-tears_1f979.png",
+      "category": "Smiley",
+      "id": 26
+    },
+    {
+      "name": "Moai",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/moai_1f5ff.png",
+      "category": "Miscellaneous",
+      "id": 27
     }
   ]
 }
