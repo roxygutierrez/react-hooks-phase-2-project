@@ -2,9 +2,11 @@ import React from "react";
 import EmojiCard from "./EmojiCard";
 import { Icon } from "semantic-ui-react";
 
-const EmojiCollection = ({ emojis }) => {
+const EmojiCollection = ({ emojis, onHandleDelete }) => {
   const renderOneEmoji = emojis.map((emoji, index) => {
-    return <EmojiCard key={index} emoji={emoji} />;
+    return (
+      <EmojiCard key={index} emoji={emoji} onHandleDelete={onHandleDelete} />
+    );
   });
 
   return (

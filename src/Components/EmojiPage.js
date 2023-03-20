@@ -25,12 +25,21 @@ const EmojiPage = () => {
       .then((resp) => resp.json())
       .then((savedEmoji) => setEmojis([...emojis, savedEmoji]));
   };
+
   const emojisToDisplay = emojis.filter((selectedEmoji) => {
     if (category === "") {
       return true;
     }
     return selectedEmoji.category === category;
   });
+
+  const handleDelete = (emojiId) => {
+    fetch(`http://localhost:3001/emojis/${emojiId}`, {
+      method: "DELETE",
+    })
+      .then((resp) => resp.json())
+      .then((emoji) => console.log(emoji));
+  };
 
   return (
     <Container>
@@ -41,7 +50,10 @@ const EmojiPage = () => {
         <br />
         <Filter onCategoryChange={setCategory} />
         <br />
-        <EmojiCollection emojis={emojisToDisplay} />
+        <EmojiCollection
+          emojis={emojisToDisplay}
+          onHandleDelete={handleDelete}
+        />
         <br />
       </main>
     </Container>

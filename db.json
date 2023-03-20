@@ -161,6 +161,30 @@
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/moai_1f5ff.png",
       "category": "Miscellaneous",
       "id": 27
+    },
+    {
+      "name": "Taco",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/taco_1f32e.png",
+      "category": "Food",
+      "id": 28
+    },
+    {
+      "name": "Hamburger",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/hamburger_1f354.png",
+      "category": "Food",
+      "id": 29
+    },
+    {
+      "name": "Pancakes",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/pancakes_1f95e.png",
+      "category": "Food",
+      "id": 30
+    },
+    {
+      "name": "French Fries",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/french-fries_1f35f.png",
+      "category": "Food",
+      "id": 31
     }
   ]
 }
