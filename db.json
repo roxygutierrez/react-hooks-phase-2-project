@@ -4,67 +4,67 @@
       "id": 1,
       "name": "Grinning Face",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/grinning-face_1f600.png",
-      "category": "Smiley"
+      "category": "Smileys-People"
     },
     {
       "id": 2,
       "name": "Grinning Face with Big Eyes",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/grinning-face-with-big-eyes_1f603.png",
-      "category": "Smiley"
+      "category": "Smileys-People"
     },
     {
       "id": 3,
       "name": "Grinning Face with Smiling Eyes",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/grinning-face-with-smiling-eyes_1f604.png",
-      "category": "Smiley"
+      "category": "Smileys-People"
     },
     {
       "id": 4,
       "name": "Beaming Face with Smiling Eyes",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/beaming-face-with-smiling-eyes_1f601.png",
-      "category": "Smiley"
+      "category": "Smileys-People"
     },
     {
       "id": 5,
       "name": "Face Holding Back Tears",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/grinning-squinting-face_1f606.png",
-      "category": "Smiley"
+      "category": "Smileys-People"
     },
     {
       "id": 6,
       "name": "Grinning Face with Sweat",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/grinning-face-with-sweat_1f605.png",
-      "category": "Smiley"
+      "category": "Smileys-People"
     },
     {
       "id": 7,
       "name": "Face with Tears of Joy",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/face-with-tears-of-joy_1f602.png",
-      "category": "Smiley"
+      "category": "Smileys-People"
     },
     {
       "id": 8,
       "name": "Star-Struck",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/star-struck_1f929.png",
-      "category": "Smiley"
+      "category": "Smileys-People"
     },
     {
       "id": 9,
       "name": " Smiling Face with Heart-Eyes",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/smiling-face-with-heart-eyes_1f60d.png",
-      "category": "Smiley"
+      "category": "Smileys-People"
     },
     {
       "id": 10,
       "name": "Cowboy Hat Face",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/cowboy-hat-face_1f920.png",
-      "category": "Smiley"
+      "category": "Smileys-People"
     },
     {
       "id": 11,
       "name": "Clown Face",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/clown-face_1f921.png",
-      "category": "Smiley"
+      "category": "Smileys-People"
     },
     {
       "id": 12,
@@ -74,86 +74,86 @@
     },
     {
       "id": 13,
-      "name": "Index Pointing at the Viewer",
-      "image": "https://em-content.zobj.net/thumbs/160/apple/325/index-pointing-at-the-viewer_light-skin-tone_1faf5-1f3fb_1f3fb.png",
+      "name": "Piñata",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/pinata_1fa85.png",
       "category": "Miscellaneous"
     },
     {
       "id": 14,
       "name": "Red Heart",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/red-heart_2764-fe0f.png",
-      "category": "Hearts"
+      "category": "Symbols"
     },
     {
       "id": 15,
-      "name": "Orange Heart",
-      "image": "https://em-content.zobj.net/thumbs/160/apple/325/orange-heart_1f9e1.png",
-      "category": "Hearts"
+      "name": "Megaphone",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/megaphone_1f4e3.png",
+      "category": "Symbols"
     },
     {
       "id": 16,
-      "name": "Yellow Heart",
-      "image": "https://em-content.zobj.net/thumbs/160/apple/325/yellow-heart_1f49b.png",
-      "category": "Hearts"
+      "name": "Flag: United States",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/flag-united-states_1f1fa-1f1f8.png",
+      "category": "Symbols"
     },
     {
       "id": 17,
-      "name": "Green Heart",
-      "image": "https://em-content.zobj.net/thumbs/160/apple/325/green-heart_1f49a.png",
-      "category": "Hearts"
+      "name": "Warning",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/warning_26a0-fe0f.png",
+      "category": "Symbols"
     },
     {
       "id": 18,
-      "name": "Blue Heart",
-      "image": "https://em-content.zobj.net/thumbs/160/apple/325/blue-heart_1f499.png",
-      "category": "Hearts"
+      "name": "Biohazard",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/biohazard_2623-fe0f.png",
+      "category": "Symbols"
     },
     {
       "id": 19,
-      "name": "Purple Heart",
-      "image": "https://em-content.zobj.net/thumbs/160/apple/325/purple-heart_1f49c.png",
-      "category": "Hearts"
+      "name": "Pisces",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/pisces_2653.png",
+      "category": "Symbols"
     },
     {
       "id": 20,
       "name": "Brown Heart",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/brown-heart_1f90e.png",
-      "category": "Hearts"
+      "category": "Symbols"
     },
     {
       "id": 21,
-      "name": "Black Heart",
-      "image": "https://em-content.zobj.net/thumbs/160/apple/325/black-heart_1f5a4.png",
-      "category": "Hearts"
+      "name": "Counterclockwise Arrows Button",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/counterclockwise-arrows-button_1f504.png",
+      "category": "Symbols"
     },
     {
       "id": 22,
       "name": "White Heart",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/white-heart_1f90d.png",
-      "category": "Hearts"
+      "category": "Symbols"
     },
     {
       "id": 23,
-      "name": "Heart Hands",
-      "image": "https://em-content.zobj.net/thumbs/160/apple/325/heart-hands_1faf6.png",
-      "category": "Hearts"
+      "name": "Musical Notes",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/musical-notes_1f3b6.png",
+      "category": "Symbols"
     },
     {
       "name": "Man: Light Skin Tone",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/man_light-skin-tone_1f468-1f3fb_1f3fb.png",
-      "category": "People",
+      "category": "Smileys-People",
       "id": 24
     },
     {
       "name": "Person: Light Skin Tone, Beard",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/person-beard_light-skin-tone_1f9d4-1f3fb_1f3fb.png",
-      "category": "People",
+      "category": "Smileys-People",
       "id": 25
     },
     {
       "name": "Face Holding Back Tears ",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/face-holding-back-tears_1f979.png",
-      "category": "Smiley",
+      "category": "Smileys-People",
       "id": 26
     },
     {
@@ -195,8 +195,296 @@
     {
       "name": "Woman: Light Skin Tone",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/woman_light-skin-tone_1f469-1f3fb_1f3fb.png",
-      "category": "People",
+      "category": "Smileys-People",
       "id": 33
+    },
+    {
+      "name": "Dog Face",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/dog-face_1f436.png",
+      "category": "Animals-Nature",
+      "id": 34
+    },
+    {
+      "name": "Cat Face",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/cat-face_1f431.png",
+      "category": "Animals-Nature",
+      "id": 35
+    },
+    {
+      "name": "Herb",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/herb_1f33f.png",
+      "category": "Animals-Nature",
+      "id": 36
+    },
+    {
+      "name": "Hibiscus",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/hibiscus_1f33a.png",
+      "category": "Animals-Nature",
+      "id": 37
+    },
+    {
+      "name": "Zzz",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/zzz_1f4a4.png",
+      "category": "Symbols",
+      "id": 38
+    },
+    {
+      "name": "Anger Symbol",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/anger-symbol_1f4a2.png",
+      "category": "Symbols",
+      "id": 39
+    },
+    {
+      "name": "Pirate Flag",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/pirate-flag_1f3f4-200d-2620-fe0f.png",
+      "category": "Miscellaneous",
+      "id": 40
+    },
+    {
+      "name": "Thermometer",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/thermometer_1f321-fe0f.png",
+      "category": "Miscellaneous",
+      "id": 41
+    },
+    {
+      "name": "Gorilla",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/gorilla_1f98d.png",
+      "category": "Animals-Nature",
+      "id": 42
+    },
+    {
+      "name": "Japanese Dolls",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/japanese-dolls_1f38e.png",
+      "category": "Miscellaneous",
+      "id": 43
+    },
+    {
+      "name": "Badger",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/badger_1f9a1.png",
+      "category": "Animals-Nature",
+      "id": 44
+    },
+    {
+      "name": "Glass of Milk",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/glass-of-milk_1f95b.png",
+      "category": "Food",
+      "id": 45
+    },
+    {
+      "name": "Whale",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/whale_1f40b.png",
+      "category": "Animals-Nature",
+      "id": 46
+    },
+    {
+      "name": "Cactus",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/cactus_1f335.png",
+      "category": "Animals-Nature",
+      "id": 47
+    },
+    {
+      "name": "White Flower",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/white-flower_1f4ae.png",
+      "category": "Symbols",
+      "id": 48
+    },
+    {
+      "name": "Mango",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/mango_1f96d.png",
+      "category": "Food",
+      "id": 49
+    },
+    {
+      "name": "Seal",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/seal_1f9ad.png",
+      "category": "Animals-Nature",
+      "id": 50
+    },
+    {
+      "name": "Blossom",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/blossom_1f33c.png",
+      "category": "Animals-Nature",
+      "id": 51
+    },
+    {
+      "name": "Zebra",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/zebra_1f993.png",
+      "category": "Animals-Nature",
+      "id": 52
+    },
+    {
+      "name": "Flag: Italy",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/flag-italy_1f1ee-1f1f9.png",
+      "category": "Symbols",
+      "id": 53
+    },
+    {
+      "name": "Restroom",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/restroom_1f6bb.png",
+      "category": "Symbols",
+      "id": 54
+    },
+    {
+      "name": "Alien",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/alien_1f47d.png",
+      "category": "Smileys-People",
+      "id": 55
+    },
+    {
+      "name": "Recycling Symbol",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/recycling-symbol_267b-fe0f.png",
+      "category": "Symbols",
+      "id": 56
+    },
+    {
+      "name": "Mammoth",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/mammoth_1f9a3.png",
+      "category": "Animals-Nature",
+      "id": 57
+    },
+    {
+      "name": "Luggage",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/luggage_1f9f3.png",
+      "category": "Miscellaneous",
+      "id": 58
+    },
+    {
+      "name": "Wind Chime",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/wind-chime_1f390.png",
+      "category": "Miscellaneous",
+      "id": 59
+    },
+    {
+      "name": "Pager",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/pager_1f4df.png",
+      "category": "Miscellaneous",
+      "id": 60
+    },
+    {
+      "name": "Rolled-Up Newspaper",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/rolled-up-newspaper_1f5de-fe0f.png",
+      "category": "Miscellaneous",
+      "id": 61
+    },
+    {
+      "name": "Guide Dog",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/guide-dog_1f9ae.png",
+      "category": "Animals-Nature",
+      "id": 62
+    },
+    {
+      "name": "Avocado",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/avocado_1f951.png",
+      "category": "Food",
+      "id": 63
+    },
+    {
+      "name": "Clinking Glasses",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/clinking-glasses_1f942.png",
+      "category": "Food",
+      "id": 64
+    },
+    {
+      "name": "Carousel Horse",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/carousel-horse_1f3a0.png",
+      "category": "Miscellaneous",
+      "id": 65
+    },
+    {
+      "name": "Ringed Planet",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/ringed-planet_1fa90.png",
+      "category": "Miscellaneous",
+      "id": 66
+    },
+    {
+      "name": "Peach",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/peach_1f351.png",
+      "category": "Food",
+      "id": 67
+    },
+    {
+      "name": "Falael",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/falafel_1f9c6.png",
+      "category": "Food",
+      "id": 68
+    },
+    {
+      "name": "Wine Glass",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/wine-glass_1f377.png",
+      "category": "Food",
+      "id": 69
+    },
+    {
+      "name": "Hedgehog",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/hedgehog_1f994.png",
+      "category": "Animals-Nature",
+      "id": 70
+    },
+    {
+      "name": "Beaver",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/beaver_1f9ab.png",
+      "category": "Animals-Nature",
+      "id": 71
+    },
+    {
+      "name": "Fire",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/fire_1f525.png",
+      "category": "Animals-Nature",
+      "id": 72
+    },
+    {
+      "name": "Tornado",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/tornado_1f32a-fe0f.png",
+      "category": "Animals-Nature",
+      "id": 73
+    },
+    {
+      "name": "Croissant",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/croissant_1f950.png",
+      "category": "Food",
+      "id": 74
+    },
+    {
+      "name": "Oden",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/oden_1f362.png",
+      "category": "Food",
+      "id": 75
+    },
+    {
+      "name": "Bubble Tea",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/bubble-tea_1f9cb.png",
+      "category": "Food",
+      "id": 76
+    },
+    {
+      "name": "Cup with Straw",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/cup-with-straw_1f964.png",
+      "category": "Food",
+      "id": 77
+    },
+    {
+      "name": "Moon Cake ",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/moon-cake_1f96e.png",
+      "category": "Food",
+      "id": 78
+    },
+    {
+      "name": "Barber Pole",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/barber-pole_1f488.png",
+      "category": "Symbols",
+      "id": 79
+    },
+    {
+      "name": "Spade Suit",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/spade-suit_2660-fe0f.png",
+      "category": "Symbols",
+      "id": 80
+    },
+    {
+      "name": "Speaker High Volume",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/speaker-high-volume_1f50a.png",
+      "category": "Symbols",
+      "id": 81
     }
   ]
 }

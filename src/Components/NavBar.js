@@ -14,20 +14,20 @@ const NavBar = () => {
       <Menu.Item as={NavLink} to="/emojis/new" name="add-new-emoji"></Menu.Item>
       <Dropdown text="Categories" pointing className="link item">
         <Dropdown.Menu>
-          <Dropdown.Item as={NavLink} to="/emojis/hearts">
-            Hearts
+          <Dropdown.Item as={NavLink} to="/emojis/symbols">
+            Symbols 💕
           </Dropdown.Item>
-          <Dropdown.Item as={NavLink} to="/emojis/people">
-            People
+          <Dropdown.Item as={NavLink} to="/emojis/smileys-people">
+            Smileys & People 😃
+          </Dropdown.Item>
+          <Dropdown.Item as={NavLink} to="/emojis/animals-nature">
+            Animals & Nature 🐻
           </Dropdown.Item>
           <Dropdown.Item as={NavLink} to="/emojis/miscellaneous">
-            Miscellaneous
-          </Dropdown.Item>
-          <Dropdown.Item as={NavLink} to="/emojis/smiley">
-            Smiley
+            Miscellaneous 🌐
           </Dropdown.Item>
           <Dropdown.Item as={NavLink} to="/emojis/food">
-            Food
+            Food & Drinks 🍔
           </Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>

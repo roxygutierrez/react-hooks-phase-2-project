@@ -56,11 +56,11 @@ const EmojiForm = () => {
             onChange={(e) => setCategory(e.target.value)}
           >
             <option value="">Select A Category...</option>
-            <option value="Hearts">Hearts</option>
-            <option value="People">People</option>
-            <option value="Smiley Face">Smiley Face</option>
-            <option value="Food">Food</option>
-            <option value="Miscellaneous">Miscellaneous</option>
+            <option value="Symbols">Symbols 💕</option>
+            <option value="Smileys-People"> Smileys & People 😃</option>
+            <option value="Animals-Nature">Animals & Nature 🐻</option>
+            <option value="Food">Food & Drinks 🍔</option>
+            <option value="Miscellaneous"> Miscellaneous 🌐</option>
           </select>
         </div>
         <br />

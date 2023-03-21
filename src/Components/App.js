@@ -14,6 +14,7 @@ function App() {
           <EmojiForm />
         </Route>
         <Route exact path="/emojis/:category">
+          <br />
           <EmojiPage />
         </Route>
         <Route exact path="">

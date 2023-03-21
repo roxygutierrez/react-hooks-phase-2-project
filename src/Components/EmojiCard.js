@@ -12,16 +12,13 @@ const EmojiCard = ({ emoji, onHandleDelete }) => {
     <Card>
       <div className="emoji-card">
         <img src={image} alt={name} title={name} />
-        <p>
-          <b>Description: </b>
-          {name}
-        </p>
+        <p>{name}</p>
 
         <p>
           <b>Category: </b>
           {category}
         </p>
-        <button onClick={handleDeleteClick}>🗑</button>
+        <button onClick={handleDeleteClick}>Delete Emoji</button>
       </div>
     </Card>
   );
