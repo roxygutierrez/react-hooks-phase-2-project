@@ -50,7 +50,7 @@
     },
     {
       "id": 9,
-      "name": " Smiling Face with Heart-Eyes",
+      "name": "Face with Heart-Eyes",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/smiling-face-with-heart-eyes_1f60d.png",
       "category": "Smileys-People"
     },
@@ -122,7 +122,7 @@
     },
     {
       "id": 21,
-      "name": "Counterclockwise Arrows Button",
+      "name": "Counter-clockwise Arrows",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/counterclockwise-arrows-button_1f504.png",
       "category": "Symbols"
     },
@@ -139,13 +139,13 @@
       "category": "Symbols"
     },
     {
-      "name": "Man: Light Skin Tone",
+      "name": "Light Skin Tone",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/man_light-skin-tone_1f468-1f3fb_1f3fb.png",
       "category": "Smileys-People",
       "id": 24
     },
     {
-      "name": "Person: Light Skin Tone, Beard",
+      "name": "Light Skin Tone, Beard",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/person-beard_light-skin-tone_1f9d4-1f3fb_1f3fb.png",
       "category": "Smileys-People",
       "id": 25
@@ -605,6 +605,30 @@
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/ram_1f40f.png",
       "category": "Animals-Nature",
       "id": 101
+    },
+    {
+      "name": "Soccer Ball",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/soccer-ball_26bd.png",
+      "category": "Miscellaneous",
+      "id": 102
+    },
+    {
+      "name": "Flying Saucer",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/flying-saucer_1f6f8.png",
+      "category": "Miscellaneous",
+      "id": 103
+    },
+    {
+      "name": "Potted Plant",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/potted-plant_1fab4.png",
+      "category": "Animals-Nature",
+      "id": 104
+    },
+    {
+      "name": "Cloud with Lightning & Rain",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/cloud-with-lightning-and-rain_26c8-fe0f.png",
+      "category": "Animals-Nature",
+      "id": 105
     }
   ]
 }

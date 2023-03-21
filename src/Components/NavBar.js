@@ -4,7 +4,7 @@ import { Dropdown, Menu } from "semantic-ui-react";
 
 const NavBar = () => {
   return (
-    <Menu>
+    <Menu className="nav-bar">
       <Menu.Item as={NavLink} to="" name="home"></Menu.Item>
       <Menu.Item
         as={NavLink}

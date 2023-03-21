@@ -9,7 +9,7 @@ const EmojiCollection = ({ emojis, onHandleDelete }) => {
     );
   });
 
-  return <Card.Group itemsPerRow={4}>{renderOneEmoji}</Card.Group>;
+  return <Card.Group itemsPerRow={5}>{renderOneEmoji}</Card.Group>;
 };
 
 export default EmojiCollection;
