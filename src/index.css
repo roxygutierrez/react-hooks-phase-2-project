@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
 
 .App {
   text-align: center;
@@ -7,8 +8,8 @@
 
 .header-title {
   background-color: rgb(255, 255, 255);
-  font-size: 60px;
-  color: rgb(74, 98, 72);
+  font-size: 100px;
+  color: rgb(62, 60, 52);
   font-family: "Bungee Shade", cursive;
   text-align: center;
 }
@@ -16,7 +17,6 @@ body {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   padding: 40px;
-  font-family: Arial;
 }
 
 .logo {
@@ -27,12 +27,34 @@ body {
 
 .emoji-card {
   align-items: center;
-  font-family: "Montserrat", sans-serif;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 .emoji-image {
   margin: auto;
   display: block;
   width: 150px;
+}
+
+.add-new-emoji {
+  font-family: "Rampart One", cursive;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.emoji-form {
+  font-family: "Bungee Shade", cursive;
+  border-radius: 30px;
+  text-align: center;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(140, 127, 116);
+  padding: 5%;
+}
+
+.home {
+  font-family: "Rampart One", cursive;
+  font-size: 50px;
+  color: rgb(62, 60, 52);
 }

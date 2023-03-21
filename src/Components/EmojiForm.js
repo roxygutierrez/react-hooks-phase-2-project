@@ -30,8 +30,11 @@ const EmojiForm = () => {
 
   return (
     <div>
-      <h4>Add a New Emoji</h4>
-      <Form onSubmit={handleSubmit}>
+      <br />
+
+      <Form className="emoji-form" onSubmit={handleSubmit}>
+        <h2 className="add-new-emoji">Add a New Emoji ✨</h2>
+
         <Form.Group widths="equal">
           <Form.Input
             type="text"

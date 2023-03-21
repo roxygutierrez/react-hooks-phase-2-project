@@ -4,9 +4,10 @@ const Home = () => {
   return (
     <div>
       <br />
-      <h3>About</h3>
+      <h3 className="home">About</h3>
       <p>
-        Welcome to Emoji World, a place where you can view all available Emojis
+        Welcome to the Emoji World, a place where you can view all available
+        Emojis!
       </p>
       <p>Don't see your favorite Emoji? Add it above.</p>
     </div>

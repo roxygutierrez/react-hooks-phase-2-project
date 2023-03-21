@@ -9,8 +9,8 @@ const EmojiCard = ({ emoji, onHandleDelete }) => {
   };
 
   return (
-    <Card>
-      <div className="emoji-card">
+    <Card className="emoji-card">
+      <div>
         <br />
         <Image className="emoji-image" src={image} />
         <br />

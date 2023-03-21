@@ -3,15 +3,16 @@ import NavBar from "./NavBar";
 
 const Header = () => {
   return (
-    <header className="header-title">
-      <div>
+    <header>
+      <div className="header-title">
         Emoji World
         <img
           className="logo"
-          src="https://images.vexels.com/media/users/3/205998/isolated/preview/e3a900a218f2abfd8ab7df00870127ce-cute-earth-globe-cartoon.png"
+          src="https://o.remove.bg/downloads/56ef7bd7-0d51-4dfc-8bb4-c314ac7746fd/comhiclipartivlyi-removebg-preview.png"
         ></img>
       </div>
-
+      <br />
+      <br />
       <NavBar />
     </header>
   );
