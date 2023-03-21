@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import EmojiForm from "./EmojiForm";
 import EmojiCollection from "./EmojiCollection";
-import Filter from "./Filter";
 import { Container } from "semantic-ui-react";
+import { useParams } from "react-router-dom";
 
 const EmojiPage = () => {
   const [emojis, setEmojis] = useState([]);
-  const [category, setCategory] = useState("");
+  const { category } = useParams();
 
   useEffect(() => {
     fetch("http://localhost:3001/emojis")
@@ -14,23 +14,11 @@ const EmojiPage = () => {
       .then((emojiArr) => setEmojis(emojiArr));
   }, []);
 
-  const handleNewEmojiForm = (newEmoji) => {
-    fetch("http://localhost:3001/emojis", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(newEmoji),
-    })
-      .then((resp) => resp.json())
-      .then((savedEmoji) => setEmojis([...emojis, savedEmoji]));
-  };
-
   const emojisToDisplay = emojis.filter((selectedEmoji) => {
-    if (category === "") {
+    if (category === "all") {
       return true;
     }
-    return selectedEmoji.category === category;
+    return selectedEmoji.category.toLowerCase() === category.toLowerCase();
   });
 
   const handleDelete = (emojiId) => {
@@ -45,8 +33,6 @@ const EmojiPage = () => {
     <Container>
       <main>
         <h3>Emoji Searcher</h3>
-        <br />
-        <Filter onCategoryChange={setCategory} />
         <br />
         <EmojiCollection
           emojis={emojisToDisplay}

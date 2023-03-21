@@ -185,6 +185,12 @@
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/french-fries_1f35f.png",
       "category": "Food",
       "id": 31
+    },
+    {
+      "name": "Mirror Ball",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/mirror-ball_1faa9.png",
+      "category": "Miscellaneous",
+      "id": 32
     }
   ]
 }

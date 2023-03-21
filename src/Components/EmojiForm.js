@@ -8,7 +8,7 @@ const EmojiForm = ({ onHandleNewEmojiForm }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    onHandleNewEmojiForm({
+    handleNewEmojiForm({
       name: name,
       image: image,
       category: category,
@@ -16,6 +16,16 @@ const EmojiForm = ({ onHandleNewEmojiForm }) => {
     setName("");
     setImage("");
     setCategory("");
+  };
+
+  const handleNewEmojiForm = (newEmoji) => {
+    fetch("http://localhost:3001/emojis", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(newEmoji),
+    }).then((resp) => resp.json());
   };
 
   return (

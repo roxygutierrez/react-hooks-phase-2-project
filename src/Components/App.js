@@ -3,17 +3,21 @@ import Header from "./Header";
 import EmojiPage from "./EmojiPage";
 import { Route, Switch } from "react-router-dom";
 import EmojiForm from "./EmojiForm";
+import Home from "./Home";
 
 function App() {
   return (
     <div>
       <Header />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/emojis/new">
+          <EmojiForm />
+        </Route>
+        <Route exact path="/emojis/:category">
           <EmojiPage />
         </Route>
-        <Route path="/new">
-          <EmojiForm />
+        <Route exact path="">
+          <Home />
         </Route>
       </Switch>
     </div>
