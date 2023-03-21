@@ -8,26 +8,26 @@
     },
     {
       "id": 2,
-      "name": "Grinning Face with Big Eyes",
-      "image": "https://em-content.zobj.net/thumbs/160/apple/325/grinning-face-with-big-eyes_1f603.png",
+      "name": "Judge",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/judge_1f9d1-200d-2696-fe0f.png",
       "category": "Smileys-People"
     },
     {
       "id": 3,
-      "name": "Grinning Face with Smiling Eyes",
-      "image": "https://em-content.zobj.net/thumbs/160/apple/325/grinning-face-with-smiling-eyes_1f604.png",
+      "name": "Face Vomiting",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/face-vomiting_1f92e.png",
       "category": "Smileys-People"
     },
     {
       "id": 4,
-      "name": "Beaming Face with Smiling Eyes",
-      "image": "https://em-content.zobj.net/thumbs/160/apple/325/beaming-face-with-smiling-eyes_1f601.png",
+      "name": "Woman Technologist",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/woman-technologist_1f469-200d-1f4bb.png",
       "category": "Smileys-People"
     },
     {
       "id": 5,
-      "name": "Face Holding Back Tears",
-      "image": "https://em-content.zobj.net/thumbs/160/apple/325/grinning-squinting-face_1f606.png",
+      "name": "Singer",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/singer_1f9d1-200d-1f3a4.png",
       "category": "Smileys-People"
     },
     {
@@ -44,8 +44,8 @@
     },
     {
       "id": 8,
-      "name": "Star-Struck",
-      "image": "https://em-content.zobj.net/thumbs/160/apple/325/star-struck_1f929.png",
+      "name": "Man Mechanic",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/man-mechanic_1f468-200d-1f527.png",
       "category": "Smileys-People"
     },
     {
@@ -485,6 +485,126 @@
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/speaker-high-volume_1f50a.png",
       "category": "Symbols",
       "id": 81
+    },
+    {
+      "name": "Women with Bunny Ears",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/women-with-bunny-ears_1f46f-200d-2640-fe0f.png",
+      "category": "Smileys-People",
+      "id": 82
+    },
+    {
+      "name": "Llama",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/llama_1f999.png",
+      "category": "Animals-Nature",
+      "id": 83
+    },
+    {
+      "name": "Sloth",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/sloth_1f9a5.png",
+      "category": "Animals-Nature",
+      "id": 84
+    },
+    {
+      "name": "Cucumber",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/cucumber_1f952.png",
+      "category": "Food",
+      "id": 85
+    },
+    {
+      "name": "Hut",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/hut_1f6d6.png",
+      "category": "Miscellaneous",
+      "id": 86
+    },
+    {
+      "name": "Skier",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/skier_26f7-fe0f.png",
+      "category": "Smileys-People",
+      "id": 87
+    },
+    {
+      "name": "Woman Lifting Weights",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/woman-lifting-weights_1f3cb-fe0f-200d-2640-fe0f.png",
+      "category": "Smileys-People",
+      "id": 88
+    },
+    {
+      "name": "Timer Clock",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/timer-clock_23f2-fe0f.png",
+      "category": "Miscellaneous",
+      "id": 89
+    },
+    {
+      "name": "Kitchen Knife",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/kitchen-knife_1f52a.png",
+      "category": "Miscellaneous",
+      "id": 90
+    },
+    {
+      "name": "Crystal Ball",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/crystal-ball_1f52e.png",
+      "category": "Miscellaneous",
+      "id": 91
+    },
+    {
+      "name": "Camera with Flash",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/camera-with-flash_1f4f8.png",
+      "category": "Miscellaneous",
+      "id": 92
+    },
+    {
+      "name": "Coin",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/coin_1fa99.png",
+      "category": "Miscellaneous",
+      "id": 93
+    },
+    {
+      "name": "Safety Pin",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/safety-pin_1f9f7.png",
+      "category": "Miscellaneous",
+      "id": 94
+    },
+    {
+      "name": "Mate",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/mate_1f9c9.png",
+      "category": "Food",
+      "id": 95
+    },
+    {
+      "name": "Custard",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/custard_1f36e.png",
+      "category": "Food",
+      "id": 96
+    },
+    {
+      "name": "Sushi",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/sushi_1f363.png",
+      "category": "Food",
+      "id": 97
+    },
+    {
+      "name": "Curry Rice",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/curry-rice_1f35b.png",
+      "category": "Food",
+      "id": 98
+    },
+    {
+      "name": "Speech Balloon",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/speech-balloon_1f4ac.png",
+      "category": "Symbols",
+      "id": 99
+    },
+    {
+      "name": "Woozy Face",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/woozy-face_1f974.png",
+      "category": "Smileys-People",
+      "id": 100
+    },
+    {
+      "name": "Ram",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/ram_1f40f.png",
+      "category": "Animals-Nature",
+      "id": 101
     }
   ]
 }
