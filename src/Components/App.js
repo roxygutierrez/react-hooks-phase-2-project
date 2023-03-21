@@ -4,6 +4,7 @@ import EmojiPage from "./EmojiPage";
 import { Route, Switch } from "react-router-dom";
 import EmojiForm from "./EmojiForm";
 import Home from "./Home";
+import { Container } from "semantic-ui-react";
 
 function App() {
   return (

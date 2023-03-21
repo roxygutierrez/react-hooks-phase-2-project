@@ -1,6 +1,6 @@
 import React from "react";
 import EmojiCard from "./EmojiCard";
-import { Icon } from "semantic-ui-react";
+import { Card } from "semantic-ui-react";
 
 const EmojiCollection = ({ emojis, onHandleDelete }) => {
   const renderOneEmoji = emojis.map((emoji, index) => {
@@ -9,11 +9,7 @@ const EmojiCollection = ({ emojis, onHandleDelete }) => {
     );
   });
 
-  return (
-    <Icon.Group side="huge">
-      <div>{renderOneEmoji}</div>
-    </Icon.Group>
-  );
+  return <Card.Group itemsPerRow={6}>{renderOneEmoji}</Card.Group>;
 };
 
 export default EmojiCollection;

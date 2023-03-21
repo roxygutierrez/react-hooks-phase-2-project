@@ -26,20 +26,17 @@ const EmojiPage = () => {
       method: "DELETE",
     })
       .then((resp) => resp.json())
-      .then((emoji) => console.log(emoji));
+      .then(() => {
+        const newEmojiArr = emojis.filter((emoji) => {
+          return emoji.id !== emojiId;
+        });
+        setEmojis(newEmojiArr);
+      });
   };
 
   return (
     <Container>
-      <main>
-        <h3>Emoji Searcher</h3>
-        <br />
-        <EmojiCollection
-          emojis={emojisToDisplay}
-          onHandleDelete={handleDelete}
-        />
-        <br />
-      </main>
+      <EmojiCollection emojis={emojisToDisplay} onHandleDelete={handleDelete} />
     </Container>
   );
 };
