@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Image, Button, Icon } from "semantic-ui-react";
+import { Card, Image, Button } from "semantic-ui-react";
 
 const EmojiCard = ({ emoji, onHandleDelete }) => {
   const { name, image, id } = emoji;
@@ -27,6 +27,7 @@ const EmojiCard = ({ emoji, onHandleDelete }) => {
             onClick={handleDeleteClick}
           />
         </div>
+        <br />
       </div>
     </Card>
   );

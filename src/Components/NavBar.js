@@ -11,7 +11,7 @@ const NavBar = () => {
         to="/emojis/all"
         name="view-all-emojis"
       ></Menu.Item>
-      <Dropdown text="Categories" pointing className="link item">
+      <Dropdown text="View by Categories" pointing className="link item">
         <Dropdown.Menu>
           <Dropdown.Item as={NavLink} to="/emojis/symbols">
             Symbols 💕
@@ -25,7 +25,7 @@ const NavBar = () => {
           <Dropdown.Item as={NavLink} to="/emojis/miscellaneous">
             Miscellaneous 🌐
           </Dropdown.Item>
-          <Dropdown.Item as={NavLink} to="/emojis/food">
+          <Dropdown.Item as={NavLink} to="/emojis/food-drinks">
             Food & Drinks 🍔
           </Dropdown.Item>
         </Dropdown.Menu>

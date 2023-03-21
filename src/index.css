@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
-
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 
 .header-title {
   background-color: rgb(255, 255, 255);
@@ -12,11 +8,6 @@
   color: rgb(62, 60, 52);
   font-family: "Bungee Shade", cursive;
   text-align: center;
-}
-body {
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  padding: 40px;
 }
 
 .logo {
@@ -47,14 +38,34 @@ body {
   font-family: "Bungee Shade", cursive;
   border-radius: 30px;
   text-align: center;
-  margin: 0;
+  margin: 100px;
   box-sizing: border-box;
   background-color: rgb(140, 127, 116);
   padding: 5%;
 }
 
-.home {
+.about {
   font-family: "Rampart One", cursive;
   font-size: 50px;
   color: rgb(62, 60, 52);
+}
+
+.home {
+  text-align: center;
+}
+
+.about-body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  border-radius: 30px;
+  background-color: rgb(140, 127, 116);
+  padding: 20px;
+  margin: 100px;
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.category {
+  font-family: "Rampart One", cursive;
+  font-size: 20px;
 }

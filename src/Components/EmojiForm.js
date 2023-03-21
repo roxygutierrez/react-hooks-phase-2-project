@@ -62,7 +62,7 @@ const EmojiForm = () => {
             <option value="Symbols">Symbols 💕</option>
             <option value="Smileys-People"> Smileys & People 😃</option>
             <option value="Animals-Nature">Animals & Nature 🐻</option>
-            <option value="Food">Food & Drinks 🍔</option>
+            <option value="Food-Drinks">Food & Drinks 🍔</option>
             <option value="Miscellaneous"> Miscellaneous 🌐</option>
           </select>
         </div>

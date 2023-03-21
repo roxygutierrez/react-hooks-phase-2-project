@@ -33,8 +33,19 @@ const EmojiPage = () => {
       });
   };
 
+  const categoryMap = {
+    symbols: "Symbols 💕",
+    "smileys-people": "Smileys & People 😃",
+    "animals-nature": "Animals & Nature 🐻",
+    miscellaneous: "Miscellaneous 🌐",
+    "food-drinks": "Food & Drinks 🍔",
+  };
+
   return (
     <Container>
+      <br />
+      <h4 className="category">{categoryMap[category]}</h4>
+
       <EmojiCollection emojis={emojisToDisplay} onHandleDelete={handleDelete} />
     </Container>
   );

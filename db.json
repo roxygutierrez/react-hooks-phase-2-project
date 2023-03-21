@@ -165,25 +165,25 @@
     {
       "name": "Taco",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/taco_1f32e.png",
-      "category": "Food",
+      "category": "Food-Drinks",
       "id": 28
     },
     {
       "name": "Hamburger",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/hamburger_1f354.png",
-      "category": "Food",
+      "category": "Food-Drinks",
       "id": 29
     },
     {
       "name": "Pancakes",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/pancakes_1f95e.png",
-      "category": "Food",
+      "category": "Food-Drinks",
       "id": 30
     },
     {
       "name": "French Fries",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/french-fries_1f35f.png",
-      "category": "Food",
+      "category": "Food-Drinks",
       "id": 31
     },
     {
@@ -267,7 +267,7 @@
     {
       "name": "Glass of Milk",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/glass-of-milk_1f95b.png",
-      "category": "Food",
+      "category": "Food-Drinks",
       "id": 45
     },
     {
@@ -291,7 +291,7 @@
     {
       "name": "Mango",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/mango_1f96d.png",
-      "category": "Food",
+      "category": "Food-Drinks",
       "id": 49
     },
     {
@@ -375,13 +375,13 @@
     {
       "name": "Avocado",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/avocado_1f951.png",
-      "category": "Food",
+      "category": "Food-Drinks",
       "id": 63
     },
     {
       "name": "Clinking Glasses",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/clinking-glasses_1f942.png",
-      "category": "Food",
+      "category": "Food-Drinks",
       "id": 64
     },
     {
@@ -399,19 +399,19 @@
     {
       "name": "Peach",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/peach_1f351.png",
-      "category": "Food",
+      "category": "Food-Drinks",
       "id": 67
     },
     {
       "name": "Falael",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/falafel_1f9c6.png",
-      "category": "Food",
+      "category": "Food-Drinks",
       "id": 68
     },
     {
       "name": "Wine Glass",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/wine-glass_1f377.png",
-      "category": "Food",
+      "category": "Food-Drinks",
       "id": 69
     },
     {
@@ -441,31 +441,31 @@
     {
       "name": "Croissant",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/croissant_1f950.png",
-      "category": "Food",
+      "category": "Food-Drinks",
       "id": 74
     },
     {
       "name": "Oden",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/oden_1f362.png",
-      "category": "Food",
+      "category": "Food-Drinks",
       "id": 75
     },
     {
       "name": "Bubble Tea",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/bubble-tea_1f9cb.png",
-      "category": "Food",
+      "category": "Food-Drinks",
       "id": 76
     },
     {
       "name": "Cup with Straw",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/cup-with-straw_1f964.png",
-      "category": "Food",
+      "category": "Food-Drinks",
       "id": 77
     },
     {
       "name": "Moon Cake ",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/moon-cake_1f96e.png",
-      "category": "Food",
+      "category": "Food-Drinks",
       "id": 78
     },
     {
@@ -507,7 +507,7 @@
     {
       "name": "Cucumber",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/cucumber_1f952.png",
-      "category": "Food",
+      "category": "Food-Drinks",
       "id": 85
     },
     {
@@ -567,25 +567,25 @@
     {
       "name": "Mate",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/mate_1f9c9.png",
-      "category": "Food",
+      "category": "Food-Drinks",
       "id": 95
     },
     {
       "name": "Custard",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/custard_1f36e.png",
-      "category": "Food",
+      "category": "Food-Drinks",
       "id": 96
     },
     {
       "name": "Sushi",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/sushi_1f363.png",
-      "category": "Food",
+      "category": "Food-Drinks",
       "id": 97
     },
     {
       "name": "Curry Rice",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/curry-rice_1f35b.png",
-      "category": "Food",
+      "category": "Food-Drinks",
       "id": 98
     },
     {
@@ -629,6 +629,12 @@
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/cloud-with-lightning-and-rain_26c8-fe0f.png",
       "category": "Animals-Nature",
       "id": 105
+    },
+    {
+      "name": "National Park",
+      "image": "https://em-content.zobj.net/thumbs/320/apple/325/national-park_1f3de-fe0f.png",
+      "category": "Miscellaneous",
+      "id": 106
     }
   ]
 }
