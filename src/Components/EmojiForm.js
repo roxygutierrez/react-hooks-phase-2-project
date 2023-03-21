@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Form } from "semantic-ui-react";
 
-const EmojiForm = ({ onHandleNewEmojiForm }) => {
+const EmojiForm = () => {
   const [name, setName] = useState("");
   const [image, setImage] = useState("");
   const [category, setCategory] = useState("");

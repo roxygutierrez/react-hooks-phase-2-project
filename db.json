@@ -76,7 +76,7 @@
       "id": 13,
       "name": "Index Pointing at the Viewer",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/index-pointing-at-the-viewer_light-skin-tone_1faf5-1f3fb_1f3fb.png",
-      "category": "Hands"
+      "category": "Miscellaneous"
     },
     {
       "id": 14,
@@ -191,6 +191,12 @@
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/mirror-ball_1faa9.png",
       "category": "Miscellaneous",
       "id": 32
+    },
+    {
+      "name": "Woman: Light Skin Tone",
+      "image": "https://em-content.zobj.net/thumbs/160/apple/325/woman_light-skin-tone_1f469-1f3fb_1f3fb.png",
+      "category": "People",
+      "id": 33
     }
   ]
 }

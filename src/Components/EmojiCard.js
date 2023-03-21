@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "semantic-ui-react";
 
 const EmojiCard = ({ emoji, onHandleDelete }) => {
-  const { name, image, category, id } = emoji;
+  const { name, image, id, category } = emoji;
 
   const handleDeleteClick = () => {
     onHandleDelete(id);
@@ -10,12 +10,17 @@ const EmojiCard = ({ emoji, onHandleDelete }) => {
 
   return (
     <Card>
-      <div>
+      <div className="emoji-card">
         <img src={image} alt={name} title={name} />
-        <h4>Description:</h4>
-        <p>{name}</p>
-        <h4>Category:</h4>
-        <p>{name}</p>
+        <p>
+          <b>Description: </b>
+          {name}
+        </p>
+
+        <p>
+          <b>Category: </b>
+          {category}
+        </p>
         <button onClick={handleDeleteClick}>🗑</button>
       </div>
     </Card>

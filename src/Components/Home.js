@@ -2,9 +2,11 @@ import React from "react";
 
 const Home = () => {
   return (
-    <span className="logo" role="img">
-      🌎
-    </span>
+    <div>
+      <br />
+      <h3>About</h3>
+      <p>Welcome to Emoji World, where you can view all available Emojis</p>
+    </div>
   );
 };
 

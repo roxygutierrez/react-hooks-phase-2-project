@@ -1,3 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
+
 .App {
   text-align: center;
+}
+
+.header-title {
+  background-color: rgb(255, 255, 255);
+  font-size: 60px;
+  color: rgb(74, 98, 72);
+  font-family: "Bungee Shade", cursive;
+  text-align: center;
+}
+body {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 40px;
+  font-family: Arial;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  vertical-align: middle;
+}
+
+.emoji-card {
+  vertical-align: middle;
+  background-color: rgb(255, 255, 255);
 }
