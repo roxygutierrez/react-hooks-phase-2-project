@@ -5,7 +5,10 @@ const Home = () => {
     <div>
       <br />
       <h3>About</h3>
-      <p>Welcome to Emoji World, where you can view all available Emojis</p>
+      <p>
+        Welcome to Emoji World, a place where you can view all available Emojis
+      </p>
+      <p>Don't see your favorite Emoji? Add it above.</p>
     </div>
   );
 };
