@@ -1,19 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap");
 
 .header-title {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(1, 49, 112);
   font-size: 100px;
-  color: rgb(62, 60, 52);
+  color: rgb(255, 255, 255);
   font-family: "Bungee Shade", cursive;
   text-align: center;
+  height: auto;
+  display: block;
+  line-height: 100px;
+  padding: 20px;
 }
 
-.logo {
-  width: 150px;
-  height: 150px;
-  vertical-align: middle;
+.app-logo {
+  transition: all 3s ease-in-out;
+  animation: App-logo-spin infinite 5s linear;
+  max-height: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .emoji-card {
@@ -45,7 +52,7 @@
 }
 
 .about {
-  font-family: "Rampart One", cursive;
+  font-family: "Noto Color Emoji", sans-serif;
   font-size: 50px;
   color: rgb(62, 60, 52);
 }
@@ -65,7 +72,21 @@
   color: #ffffff;
 }
 
+.ui.menu {
+  margin: 0rem;
+}
+
 .category {
   font-family: "Rampart One", cursive;
   font-size: 20px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }

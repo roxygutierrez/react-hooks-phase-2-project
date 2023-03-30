@@ -5,14 +5,14 @@ const Header = () => {
   return (
     <header>
       <div className="header-title">
-        Emoji World
+        Emoji
         <img
-          className="logo"
-          src="https://o.remove.bg/downloads/56ef7bd7-0d51-4dfc-8bb4-c314ac7746fd/comhiclipartivlyi-removebg-preview.png"
-        ></img>
+          className="app-logo"
+          alt="thinker"
+          src="https://npr.brightspotcdn.com/dims4/default/bb65432/2147483647/strip/true/crop/640x640+0+0/resize/880x880!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fwamc%2Ffiles%2F201907%2FThinking_Face_Emoji.png"
+        />
+        World
       </div>
-      <br />
-      <br />
       <NavBar />
     </header>
   );
