@@ -16,6 +16,7 @@ function App() {
           <EmojiForm />
         </Route>
         <Route exact path="/emojis/:category">
+          {/* passing in {search} to specify what emojis to display */}
           <EmojiPage search={search} />
         </Route>
         <Route exact path="">

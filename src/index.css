@@ -6,8 +6,8 @@
 /* header */
 .header-title {
   background-color: rgb(255, 255, 255);
-  font-size: 100px;
-  color: rgb(7, 12, 4);
+  font-size: 150px;
+  color: rgb(0, 0, 0);
   font-family: "Bungee Shade", cursive;
   text-align: center;
   height: auto;
@@ -34,6 +34,10 @@
   }
 }
 
+.about {
+  font-family: "Rampart One", cursive;
+  font-size: 50px;
+}
 /* home page styling */
 .home {
   text-align: center;
@@ -44,6 +48,7 @@
   align-items: center;
   text-align: center;
   font-family: "Montserrat", sans-serif;
+  color: black;
 }
 
 /* emoji image styling */
@@ -75,14 +80,12 @@
 .category {
   font-family: "Rampart One", cursive;
   font-size: 50px;
-  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
-/* .searchbar label {
-  font-family: "Rampart One", cursive;
-  font-size: 20px;
-  padding-top: 100px;
-  padding: 1rem;
-  display: run-in;
-  flex-direction: column;
-} */
+/* learn more text */
+.learn-more {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  padding: 10px;
+}

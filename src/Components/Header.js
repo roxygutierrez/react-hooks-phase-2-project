@@ -13,6 +13,7 @@ const Header = ({ setSearch }) => {
         />
         World
       </div>
+      {/* passing in {setSearch} to pass into NavBar because that's where our search input is located */}
       <NavBar setSearch={setSearch} />
     </header>
   );
