@@ -94,3 +94,10 @@
     transform: rotate(360deg);
   }
 }
+
+.searchbar {
+  /* font-family: "Bungee Shade", cursive; */
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}

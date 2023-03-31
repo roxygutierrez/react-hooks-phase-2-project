@@ -6,6 +6,7 @@ import { useParams } from "react-router-dom";
 
 const EmojiPage = () => {
   const [emojis, setEmojis] = useState([]);
+  const [search, setSearch] = useState("");
   const { category } = useParams();
 
   useEffect(() => {
@@ -14,12 +15,16 @@ const EmojiPage = () => {
       .then((emojiArr) => setEmojis(emojiArr));
   }, []);
 
-  const emojisToDisplay = emojis.filter((selectedEmoji) => {
-    if (category === "all") {
-      return true;
-    }
-    return selectedEmoji.category.toLowerCase() === category.toLowerCase();
-  });
+  const emojisToDisplay = emojis
+    .filter((selectedEmoji) => {
+      if (category === "all") {
+        return true;
+      }
+      return selectedEmoji.category.toLowerCase() === category.toLowerCase();
+    })
+    .filter((emoji) => {
+      return emoji.name.toUpperCase().includes(search.toUpperCase());
+    });
 
   const handleDelete = (emojiId) => {
     fetch(`http://localhost:3001/emojis/${emojiId}`, {
@@ -44,9 +49,8 @@ const EmojiPage = () => {
 
   return (
     <Container>
-      <br />
+      <Search setSearch={setSearch} />
       <h4 className="category">{categoryMap[category]}</h4>
-      <Search />
       <EmojiCollection emojis={emojisToDisplay} onHandleDelete={handleDelete} />
     </Container>
   );

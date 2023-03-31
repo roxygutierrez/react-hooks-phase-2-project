@@ -1,9 +1,15 @@
 import React from "react";
 
-const Search = () => {
+const Search = ({ setSearch }) => {
   return (
     <div className="searchbar">
-      <input type="text" id="search" placeholder="Search for an Emoji..." />
+      <label htmlFor="search">Search Emoji</label>
+      <input
+        type="text"
+        id="search"
+        placeholder="Search for an Emoji..."
+        onChange={(e) => setSearch(e.target.value)}
+      />
     </div>
   );
 };
