@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Dropdown, Menu } from "semantic-ui-react";
+import { Dropdown, Menu, Search } from "semantic-ui-react";
 
 const NavBar = () => {
   return (
@@ -31,6 +31,7 @@ const NavBar = () => {
         </Dropdown.Menu>
       </Dropdown>
       <Menu.Item as={NavLink} to="/emojis/new" name="add-new-emoji"></Menu.Item>
+      <Search placeholder="Type here..." />
     </Menu>
   );
 };

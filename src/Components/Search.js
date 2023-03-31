@@ -7,7 +7,7 @@ const Search = ({ setSearch }) => {
       <input
         type="text"
         id="search"
-        placeholder="Search for an Emoji..."
+        placeholder="🔍 Type here..."
         onChange={(e) => setSearch(e.target.value)}
       />
     </div>
