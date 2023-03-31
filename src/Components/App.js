@@ -11,14 +11,17 @@ function App() {
   return (
     <div>
       <Header setSearch={setSearch} />
+
       <Switch>
         <Route exact path="/emojis/new">
           <EmojiForm />
         </Route>
+        {/* useParams to match category route from URL-- category becomes a variable */}
         <Route exact path="/emojis/:category">
           {/* passing in {search} to specify what emojis to display */}
           <EmojiPage search={search} />
         </Route>
+
         <Route exact path="">
           <Home />
         </Route>
