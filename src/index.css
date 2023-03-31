@@ -13,7 +13,7 @@
   height: auto;
   display: block;
   line-height: 100px;
-  padding: 20px;
+  padding: 25px;
 }
 /* spinning logo */
 .app-logo {
@@ -72,7 +72,7 @@
   text-align: center;
   margin: 100px;
   box-sizing: border-box;
-  background-color: rgb(110, 113, 118);
+  background-color: rgb(89, 119, 170);
   padding: 5%;
 }
 
