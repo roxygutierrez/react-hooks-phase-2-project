@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from "react";
 import EmojiCollection from "./EmojiCollection";
-import Search from "./Search";
 import { Container } from "semantic-ui-react";
 import { useParams } from "react-router-dom";
 
-const EmojiPage = () => {
+const EmojiPage = ({ search }) => {
   const [emojis, setEmojis] = useState([]);
-  const [search, setSearch] = useState("");
   const { category } = useParams();
 
   useEffect(() => {
@@ -49,7 +47,6 @@ const EmojiPage = () => {
 
   return (
     <Container>
-      <Search setSearch={setSearch} />
       <h4 className="category">{categoryMap[category]}</h4>
       <EmojiCollection emojis={emojisToDisplay} onHandleDelete={handleDelete} />
     </Container>

@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
 
-const Header = () => {
+const Header = ({ setSearch }) => {
   return (
     <header>
       <div className="header-title">
@@ -13,7 +13,7 @@ const Header = () => {
         />
         World
       </div>
-      <NavBar />
+      <NavBar setSearch={setSearch} />
     </header>
   );
 };
