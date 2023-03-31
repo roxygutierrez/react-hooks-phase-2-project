@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Form } from "semantic-ui-react";
 
 const EmojiForm = () => {
+  //using state to make a contolled form
   const [name, setName] = useState("");
   const [image, setImage] = useState("");
   const [category, setCategory] = useState("");
@@ -13,6 +14,7 @@ const EmojiForm = () => {
       image: image,
       category: category,
     });
+    //reset form
     setName("");
     setImage("");
     setCategory("");
@@ -30,8 +32,6 @@ const EmojiForm = () => {
 
   return (
     <div>
-      <br />
-
       <Form className="emoji-form" onSubmit={handleSubmit}>
         <h2 className="add-new-emoji">Add a New Emoji ✨</h2>
 
