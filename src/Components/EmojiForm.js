@@ -43,6 +43,7 @@ const EmojiForm = () => {
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
+
           <Form.Input
             type="text"
             name="image"
