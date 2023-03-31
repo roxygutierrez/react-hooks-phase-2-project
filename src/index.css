@@ -4,9 +4,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap");
 
 .header-title {
-  background-color: rgb(1, 49, 112);
+  background-color: rgb(255, 255, 255);
   font-size: 100px;
-  color: rgb(255, 255, 255);
+  color: rgb(7, 12, 4);
   font-family: "Bungee Shade", cursive;
   text-align: center;
   height: auto;
@@ -79,6 +79,10 @@
 .category {
   font-family: "Rampart One", cursive;
   font-size: 20px;
+}
+
+.nav-bar {
+  align-content: center;
 }
 
 @keyframes App-logo-spin {
