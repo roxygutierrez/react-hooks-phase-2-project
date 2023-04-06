@@ -32,7 +32,7 @@ const NavBar = ({ setSearch }) => {
       </Dropdown>
       <Menu.Item as={NavLink} to="/emojis/new" name="add-new-emoji"></Menu.Item>
       <Search
-        placeholder="Type here..."
+        placeholder="Search for emoji..."
         onSearchChange={(e) => setSearch(e.target.value)}
       />
     </Menu>

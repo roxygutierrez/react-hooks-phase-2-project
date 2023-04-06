@@ -25,7 +25,7 @@ const EmojiCard = ({ emoji, onHandleDelete }) => {
           <div className="remove-btn">
             <Button
               basic
-              content="Remove"
+              content="Delete Emoji"
               icon="trash"
               labelPosition="left"
               onClick={handleDeleteClick}
