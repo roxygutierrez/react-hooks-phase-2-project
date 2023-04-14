@@ -1,12 +1,6 @@
 {
   "emojis": [
     {
-      "id": 1,
-      "name": "Grinning Face",
-      "image": "https://em-content.zobj.net/thumbs/160/apple/325/grinning-face_1f600.png",
-      "category": "Smileys-People"
-    },
-    {
       "id": 2,
       "name": "Judge",
       "image": "https://em-content.zobj.net/thumbs/160/apple/325/judge_1f9d1-200d-2696-fe0f.png",
@@ -665,6 +659,12 @@
       "image": "https://em-content.zobj.net/thumbs/160/apple/354/yawning-face_1f971.png",
       "category": "Smileys-People",
       "id": 111
+    },
+    {
+      "name": "See-No-Evil Monkey",
+      "image": "https://em-content.zobj.net/thumbs/320/apple/354/see-no-evil-monkey_1f648.png",
+      "category": "Animals-Nature",
+      "id": 112
     }
   ]
 }

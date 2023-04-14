@@ -16,12 +16,15 @@ const EmojiPage = ({ search }) => {
 
   //filter emojis by category and search
   const emojisToDisplay = emojis
-    .filter((selectedEmoji) => {
+    // filters emojis by category
+    .filter((emoji) => {
       if (category === "all") {
         return true;
+      } else {
+        return emoji.category.toLowerCase() === category.toLowerCase();
       }
-      return selectedEmoji.category.toLowerCase() === category.toLowerCase();
     })
+    // filters the searched emoji
     .filter((emoji) => {
       return emoji.name.toUpperCase().includes(search.toUpperCase());
     });

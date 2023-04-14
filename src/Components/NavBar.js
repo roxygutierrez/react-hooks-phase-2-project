@@ -4,6 +4,7 @@ import { Dropdown, Menu, Search } from "semantic-ui-react";
 
 const NavBar = ({ setSearch }) => {
   return (
+    // link for each route
     <Menu>
       <Menu.Item as={NavLink} to="" name="home"></Menu.Item>
       <Menu.Item

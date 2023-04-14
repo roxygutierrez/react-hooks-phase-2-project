@@ -7,6 +7,7 @@ const EmojiForm = () => {
   const [image, setImage] = useState("");
   const [category, setCategory] = useState("");
 
+  // handles submit event
   const handleSubmit = (e) => {
     e.preventDefault();
     handleNewEmojiForm({
@@ -20,6 +21,7 @@ const EmojiForm = () => {
     setCategory("");
   };
 
+  // POST request to server
   const handleNewEmojiForm = (newEmoji) => {
     fetch("http://localhost:3001/emojis", {
       method: "POST",
